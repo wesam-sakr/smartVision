@@ -27,8 +27,10 @@
     margin-top: 50px;
 }
 .shopping .service-section .icon img{
-    width: 100px;
-    height: 100px;
+    padding: 22px;
+    background: #fff;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
 }
 .shopping .service-section{
@@ -96,3 +98,12 @@
     height: 100% !important;
     width: 100% !important;
 }
+
+.cloud3d21 {
+    animation: dance 1s infinite alternate !important;
+  }
+  @keyframes dance {
+    100% {
+        opacity: 0;
+    }
+  }

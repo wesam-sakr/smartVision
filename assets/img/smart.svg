@@ -28,9 +28,9 @@
     <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-139.702 7335.638)" clip-path="url(#clip-path-2)">
       <rect id="biglogo-2" data-name="biglogo" width="87" height="69" transform="translate(-0.298 -53.02)" fill="url(#pattern)"/>
       
-	
-		<animateMotion  accumulate="none" additive="replace" begin="0s" calcMode="paced" dur="6s" fill="remove" path="M210,0 0 0 210,0" repeatCount="indefinite" restart="always">
+	<animateMotion  accumulate="none" additive="replace" begin="0s" calcMode="paced" dur="6s" fill="remove" path="M210,0 0 0 210,0"  restart="always">
 		</animateMotion>
+		
     </g>
    
   </g>
