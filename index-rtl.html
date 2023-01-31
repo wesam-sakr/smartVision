@@ -37,73 +37,7 @@
 <body>
 <div class="box-container limit-width">
   <!-- ***** SETTINGS ****** -->
-  <section id="settings"> 
-      <button class="btn-settings" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="fas fa-sliders-h"></span> <span>PANEL</span></button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class="offcanvas-header">
-        <h4 id="offcanvasRightLabel" class="fw-bold mb-0">Smart Vision</h4>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div id="container_layout" class="offcanvas-body">
-        <div class="offcanvas-content">
-          <!-- ***** BACKGROUND STYLE ****** -->
-          <h6 class="text-muted text-center fw-bold pb-2">Background Style</h6>
-          <div id="BackgroundScheme" class="overflow-hidden">
-            <div class="row gy-3">
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light stylebackground" data-value="origin">Origin</div>
-              </div>
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light stylebackground" data-value="light">Light</div>
-              </div>
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light stylebackground" data-value="dark">Dark</div>
-              </div>
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted" data-value="dark">SOON</div>
-              </div>
-            </div>
-          </div>
-        </div>  
 
-
-        <div class="offcanvas-content">
-          <!-- ***** COLOR SCHEME ****** -->
-          <h6 class="text-muted text-center fw-bold pb-2">Color Scheme</h6>
-          <div id="ColorScheme" class="overflow-hidden">
-            <div class="row gy-3">
-              
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light stylecolor" data-value="blue">Blue Mode</div>
-              </div>
-          
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light stylecolor" data-value="black">Black Mode</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="offcanvas-content">
-          <!-- ***** HEADER POSITIONS ****** -->
-          <h6 class="text-muted text-center fw-bold pb-2">Header Position</h6>
-          <div id="HeaderScheme" class="overflow-hidden">
-            <div class="row gy-3">
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light styleheader" data-value="static">Static</div>
-              </div>
-              <div class="col-6">
-                <div class="p-3 border text-center text-muted bg-light styleheader" data-value="fixed">Fixed</div>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-      
-      </div>
-    </div>
-
-  </section>
   <!-- ***** LOADING PAGE ****** -->
   <div id="spinner-area">
     <div class="spinner">
@@ -123,18 +57,31 @@
   <header id="header">
     <!-- ***** NEWS ***** -->
     <div class="sec-bg3 infonews">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-6 col-md-6">
+          <div class="col-6 col-md-6 link">
             <div class="infonews-nav float-end">
-              <a href="blog-details.html" title="Blog" class="iconews"><i class="ico-message-content f-18 w-icon"></i></a>
-              <a href="contact.html" title="Contact Us" class="iconews"><i class="ico-bell f-18 w-icon"></i></a>
-              <a href="login.html" title="Login" class="iconews"><i class="ico-shopping-cart f-18 w-icon"></i></a>
+              <a href="tel:1300-656-1046" class="iconews tabphone">
+                <i class="fa-solid fa-phone"></i>
+                <span class="px-2">+ (123) 1300-656-1046</span>
+              </a>
+                <a href="tel:1300-656-1046" class="iconews tabphone">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span class="px-2">smart@gmail.com</span>
+                </a>
             </div>
           </div>
-          <div class="col-6 col-md-6 link">
+          <div class="col-6 col-md-6">
             <div class="infonews-nav float-start">
-              <a href="tel:1300-656-1046" class="iconews tabphone">+ (123) 1300-656-1046</a>
+              <a href="blog-details.html" title="Blog" class="iconews">
+                اراء العملاء</a>
+              <a href="blog-details.html" title="Blog" class="iconews">
+                طرق الدفع</a>
+              <a href="blog-details.html" title="Blog" class="iconews">
+                <i class="fa-brands fa-facebook-f"></i></a>
+              <a href="contact.html" title="Contact Us" class="iconews"><i class="fa-brands fa-instagram"></i></a>
+              <a href="login.html" title="Login" class="iconews"><i class="fa-brands fa-twitter"></i></a>
+              <a href="login.html" title="Login" class="iconews"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
@@ -147,8 +94,8 @@
           <div class="row align-items-center">
             <div class="col-2 col-md-2">
               <a href="index">
-                <img class="svg logo-menu d-block" src="./assets/img/smart-logo.svg" alt="logo Antler">
-                <img class="svg logo-menu d-none" src="./assets/img/smart-logo.svg" alt="logo Antler">
+                <img class="svg logo-menu d-block" src="./assets/img/logooo.png" alt="logo Antler">
+                <img class="svg logo-menu d-none" src="./assets/img/logooo.png" alt="logo Antler">
               </a>
             </div>
             <nav id="menu" class="col-10 col-md-10">
@@ -479,7 +426,7 @@
                     <img class="svg" src="./assets/img/menu.svg" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
                   </div>
                   <li class="menu-item">
-                    <a class="pe-0  ms-0" href="login.html"> <div class="btn btn-default-yellow-fill question"><span data-i18n="[html]header.login"></span> <i class="fas fa-lock ps-1"></i> </div></a>
+                    <a class="pe-0  ms-0" href="login.html"> <div class="btn btn-default-yellow-fill question"><span data-i18n="[html]header.login"></span></div></a>
                   </li>
                 </ul>
               </div>
@@ -493,7 +440,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-6">
-            <a href="index"><img class="svg logo-menu d-block" src="./assets/img/smart-logo.svg" alt="logo Antler"></a>
+            <a href="index"><img class="logo-menu d-block" src="./assets/img/logooo.png" alt="logo Antler"></a>
             <!-- <a href="index"><img class="svg logo-menu d-block" src="./assets/img/logo.svg" alt="logo Antler"></a> -->
             <!-- <a href="index"><img class="svg logo-menu d-none" src="./assets/img/logo-light.svg" alt="logo Antler"></a> -->
           </div>
@@ -757,13 +704,13 @@
           <div class="slider-content">
             <div class="container">
               <img class="svg custom-element-right" src="assets/patterns/controlpanel.svg" alt="Shared Hosting">
-              <div class="col-sm-12 col-md-6 px-0">
+              <div class="col-sm-12 col-md-5 px-0">
                 <h1 data-aos="fade-up" data-aos-duration="800">خيالك يصبح ابداعنا
                 <div class="animatype"> <span id="typed3"></span></div></h1>
                 <p data-aos="fade-up" data-aos-duration="1200" class="subheading">عالم من الابداع فى مجال تصميم وبرمجة المواقع الالكترونية مع تصميم أفضل وارقى المواقع التجارية والشخصية والمتاجر الالكترونية وتطبيقات الجوالات الحديثة بأفضل الأنظمة المتطورة فى .عالم البرمجة والتصميم
                 </p>
                 <a href="vps.html" class="btn btn-default-yellow-fill ms-3 mt-3">اطلب عرض الاسعار</a>
-                <a href="vps.html" class="btn btn-default-blue-fill mt-3">أقرأ المزيد</a>
+                <a href="vps.html" class="btn btn-default-pink-fill text-white mt-3">أقرأ المزيد</a>
               </div>
             </div>
           </div>
@@ -773,15 +720,13 @@
           <div class="slider-content">
             <div class="container">
               <img class="svg custom-element-right" src="assets/patterns/cloud3d.svg">
-              <div class="col-sm-12 col-md-6 px-0">
-                <h1 data-aos="fade-up" data-aos-duration="800">Virtual <br>Cloud Servers</h1>
-                <p data-aos="fade-up" data-aos-duration="1200">
-                  <i class="c-pink feat fas fa-check-circle ms-2"></i> Immediate scalability<br>
-                  <i class="c-pink feat fas fa-check-circle ms-2"></i> High performance<br>
-                  <i class="c-pink feat fas fa-check-circle ms-2"></i> Fast deployment
+              <div class="col-sm-12 col-md-5 px-0">
+                <h1 data-aos="fade-up" data-aos-duration="800">خيالك يصبح ابداعنا
+                <div class="animatype"> <span id="typed3"></span></div></h1>
+                <p data-aos="fade-up" data-aos-duration="1200" class="subheading">عالم من الابداع فى مجال تصميم وبرمجة المواقع الالكترونية مع تصميم أفضل وارقى المواقع التجارية والشخصية والمتاجر الالكترونية وتطبيقات الجوالات الحديثة بأفضل الأنظمة المتطورة فى .عالم البرمجة والتصميم
                 </p>
-                <a href="vps.html" class="btn btn-default-yellow-fill me-3 mt-3">Get Prices</a>
-                <a href="vps.html" class="btn btn-default-pink-fill mt-3">Learn more</a>
+                <a href="vps.html" class="btn btn-default-yellow-fill ms-3 mt-3">اطلب عرض الاسعار</a>
+                <a href="vps.html" class="btn btn-default-pink-fill text-white mt-3">أقرأ المزيد</a>
               </div>
             </div>
           </div>
