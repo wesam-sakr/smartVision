@@ -6128,10 +6128,13 @@ svg {
     background-color: #1697bf !important
 }
 
-[data-color=blue] .accordion.faq .panel-title.active,
-[data-color=blue] .c-purple {
+[data-color=blue] .accordion.faq .panel-title.active{
     color: #1697bf !important
 }
+[data-color=blue] .c-purple, [data-color=blue] .c-blue{
+    color: #08104d  !important;
+}
+
 
 [data-color=blue] .sec-grad-white-to-purple {
     background: linear-gradient(90deg, #fff 70%, #1697bf 0) !important
@@ -6382,7 +6385,6 @@ svg {
 
 [data-color=blue] .blog .sidebar .categories .heading a.active,
 [data-color=blue] .blog .sidebar .heading.active,
-[data-color=blue] .c-blue,
 [data-color=blue] .fullrock .closer,
 [data-color=blue] .golink,
 [data-color=blue] .golink:hover,
@@ -6555,8 +6557,7 @@ svg {
     background-color: #1697bf !important
 }
 
-[data-color=blue] .accordion.faq .panel-title.active,
-[data-color=blue] .c-purple {
+[data-color=blue] .accordion.faq .panel-title.active{
     color: #1697bf !important
 }
 
