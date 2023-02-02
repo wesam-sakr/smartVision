@@ -36,8 +36,17 @@
   </head>
 <body>
 <div class="box-container limit-width">
-  <!-- ***** SETTINGS ****** -->
-
+<!-- ***** SETTINGS ****** -->
+<section id="settings">
+  <button class="btn-settings" type="button">
+    <div class="stylebackground" data-value="light">
+      <i class="fa-solid fa-sun fs-6"></i>
+    </div>
+    <div class="stylebackground" data-value="dark">
+      <i class="fa-solid fa-moon fs-6"></i>
+    </div>
+  </button>
+</section>
   <!-- ***** LOADING PAGE ****** -->
   <div id="spinner-area">
     <div class="spinner">
@@ -427,19 +436,19 @@
             </nav>
 
             <nav id="menu" class="col-10 col-md-2">
-              <div class="navigation float-start">
+              <div class="navigation float-end">
                 <button class="menu-toggle">
-                <span class="icon"></span>
-                <span class="icon"></span>
-                <span class="icon"></span>
+                  <span class="icon"></span>
+                  <span class="icon"></span>
+                  <span class="icon"></span>
                 </button>
                 <ul class="main-menu nav navbar-nav navbar-right">
+                  <li class="menu-item">
+                    <a class="pe-0  ms-0" href="login.html"> <div class="btn btn-default-blue-fill question"><span>منطقة العميل</span></div></a>
+                  </li>
                   <div class="tech-box">
                     <img class="svg" src="./assets/img/menu.svg" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
                   </div>
-                  <li class="menu-item">
-                    <a class="pe-0  ms-0" href="login.html"> <div class="btn btn-default-blue-fill question"><span data-i18n="[html]header.login"></span></div></a>
-                  </li>
                 </ul>
               </div>
             </nav>
@@ -747,11 +756,11 @@
     </div>
   </section>
   <!-- ***** FEATURES ***** -->
-  <svg class="division-ontop bg-white d-none" viewBox="0 0 1440 150">
+  <svg class="division-ontop d-none" viewBox="0 0 1440 150">
     <path fill="#15212A" fill-opacity="1" d="M0,96L120,85.3C240,75,480,53,720,53.3C960,53,1200,75,1320,85.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
     </path>
   </svg>
-  <section class="services sec-normal bg-colorstyle">
+  <section class="services sec-normal bg-colorstyle pt-5">
     <div class="container">
       <div class="service-wrap">
         <div class="row">
@@ -1364,10 +1373,10 @@
       <!-- <img class="logo-bg logo-footer" src="./assets/img/logo-symbol.svg" alt="logo"> -->
       <div class="container">
         <div class="footer-top">
-          <div class="row">
+          <div class="row justify-content-between">
             <div class="col-sm-6 col-md-3">
               <a><img class="svg logo-footer d-block" src="./assets/img/smart-logo.svg" alt="logo"></a>
-              <a><img class="svg logo-footer d-none" src="./assets/img/logo-light.svg" alt="logo"></a>
+              <a><img class="svg logo-footer d-none" src="./assets/img/logooo.png" alt="logo"></a>
               <div class="copyright">©2022 سمارت فيجن - جميع الحقوق محفوظة</div>
               <div class="subcribe news">
                 <div class="container">
@@ -1405,7 +1414,7 @@
                 <li class="menu-item"><a href="domains.html">حجز دومين سعودي</a></li>
               </ul>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-2">
               <div class="heading">روابط تهمك</div>
               <ul class="footer-menu">
                 <li class="menu-item"><a href="login.html">آراء العملاء</a></li>
