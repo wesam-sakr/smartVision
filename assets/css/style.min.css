@@ -620,7 +620,7 @@ a.plans.badge.feat {
     text-transform: capitalize !important;
     position: relative !important;
     display: inline-block !important;
-    color: #181b22;
+    color: #fff;
     line-height: 52px !important
 }
 
@@ -797,8 +797,6 @@ a.plans.badge.feat {
 [data-background=light] .box-container .getready .column-support-title,
 [data-background=light] .box-container .history-section .info-content h4,
 [data-background=light] .box-container .nav-menu .main-menu a {
-    /* color: #212122
-     */
      color: #fff;
 }
 
@@ -810,9 +808,6 @@ a.plans.badge.feat {
 }
 [data-background=light] .btn-default-pink-fill {
     border: 1px solid #fff;
-}
-[data-background=light] .text-white{
-    color:#212122 !important
 }
 [data-background=light]  .division-ontop path{
     fill: #fff !important;
@@ -6708,7 +6703,10 @@ svg {
 [data-background=light] .box-container .history-section .tabs .tabs-header .text-white,
 [data-background=light] .box-container .mergecolor,
 [data-background=light] .box-container .sec-bg3 .section-subheading {
-    color: #212122 !important
+    color: #08104d !important
+}
+[data-background=light]  #contactForm .text-white{
+    color: #4c4a4a;
 }
 
 [data-background=dark] .box-container #features.exapath,
@@ -6921,7 +6919,7 @@ svg {
     border-right: 1px solid #dee2e6
 }
 [data-background=light]  .box-container .footer .heading {
-    color: #212121;
+    color: #08104d ;
 }
 [data-background=light] .cd-filter-block input, [data-background=light] .cd-filter-block select ,[data-background=light] .form-control {
     border: solid 1px #e5e5e5 !important;
