@@ -6707,7 +6707,7 @@ svg {
     color: #08104d !important
 }
 [data-background=light]  #contactForm .text-white{
-    color: #4c4a4a;
+    color: #4c4a4a !important;
 }
 
 [data-background=dark] .box-container #features.exapath,
