@@ -805,10 +805,10 @@ a.plans.badge.feat {
 [data-background=light] .cloud3d1,[data-background=light] .controlpanel3 ,[data-background=light] .controlpanel0 {
     stroke: #fff;
 }
-[data-background=light]  .header-main-slider .flickity-page-dots .dot {
+[data-background=light] .header-main-slider .flickity-page-dots .dot {
     background: #fff;
 }
-[data-background=light]  .btn {
+[data-background=light] .btn-default-pink-fill {
     border: 1px solid #fff;
 }
 [data-background=light] .text-white{
